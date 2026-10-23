@@ -1,0 +1,25 @@
+{
+  "name": "omp-rules",
+  "version": "1.0.0",
+  "description": "Model catalogue sync, validation, and fallback chain rules maintenance plugin for Oh My Pi (OMP)",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "omp",
+    "omp-plugin",
+    "pi-extension",
+    "rules",
+    "models"
+  ],
+  "author": "thanhd",
+  "license": "MIT",
+  "omp": {
+    "description": "Auto-sync, validate, and generate OMP fallback rules from available catalogued models",
+    "extensions": [
+      "./index.js"
+    ]
+  },
+  "bin": {
+    "omp-rules": "./bin/omp-rules.js"
+  }
+}
