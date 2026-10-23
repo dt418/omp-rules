@@ -17,6 +17,9 @@
     "description": "Auto-sync, validate, and generate OMP fallback rules from available catalogued models",
     "extensions": [
       "./index.js"
+    ],
+    "commands": [
+      "./commands"
     ]
   },
   "bin": {
